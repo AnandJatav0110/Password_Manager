@@ -23,7 +23,7 @@ app.use(cors());
 client.connect();
 
 // Get all the passwords
-app.get("/api", async (req, res) => {
+app.get("/api/passwords", async (req, res) => {
   const db = client.db(dbName);
   const collection = db.collection("passwords");
   const findResult = await collection.find({}).toArray();
@@ -31,7 +31,7 @@ app.get("/api", async (req, res) => {
 });
 
 // Save a password
-app.post("/api", async (req, res) => {
+app.post("/api/passwords", async (req, res) => {
   const password = req.body;
   const db = client.db(dbName);
   const collection = db.collection("passwords");
@@ -40,7 +40,7 @@ app.post("/api", async (req, res) => {
 });
 
 // Delete a password
-app.delete("/api", async (req, res) => {
+app.delete("/api/passwords", async (req, res) => {
   const password = req.body;
   const db = client.db(dbName);
   const collection = db.collection("passwords");
@@ -48,9 +48,9 @@ app.delete("/api", async (req, res) => {
   res.send({ success: true, result });
 });
 
-app.use(express.static(path.join(__dirname, "..", "dist")));
+app.use(express.static(path.join("dist")));
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "..", "dist", "index.html"));
+  res.sendFile(path.join("dist", "index.html"));
 });
 
 app.listen(port, () => {
