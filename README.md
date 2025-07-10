@@ -53,7 +53,6 @@ npm install
 npm run dev
 
 (5) cd backend
-npm install
 -> to run backend npm start or node --watch server.js
 
 After running this command, the app will be available at:
