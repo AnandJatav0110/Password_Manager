@@ -10,13 +10,13 @@ const path = require("path");
 dotenv.config();
 
 // connection URL
-const url = process.env.MONGO_URL || "mongodb://localhost:27017"; // ✅ uses env variable for Render
+const url = process.env.MONGO_URL || "mongodb://localhost:27017"; //
 const client = new MongoClient(url);
 
 // database
 const dbName = "My-pass";
 const app = express();
-const port = process.env.PORT || 8080; // ✅ use Render's dynamic port
+const port = process.env.PORT || 8080; //
 app.use(bodyparser.json());
 app.use(cors());
 
@@ -52,6 +52,13 @@ app.delete("/", async (req, res) => {
 app.use(express.static(path.join(__dirname, "..", "dist")));
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "dist", "index.html"));
+});
+
+const path = require("path");
+app.use(express.static(path.join(__dirname, "../dist")));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../dist/index.html"));
 });
 
 app.listen(port, () => {
