@@ -16,7 +16,7 @@ const client = new MongoClient(url);
 // database
 const dbName = "My-pass";
 const app = express();
-const port = process.env.PORT || 8080; //
+const port = process.env.PORT || 8080;
 app.use(bodyparser.json());
 app.use(cors());
 
@@ -48,17 +48,9 @@ app.delete("/", async (req, res) => {
   res.send({ success: true, result });
 });
 
-// ✅ Serve frontend (dist) if deployed
 app.use(express.static(path.join(__dirname, "..", "dist")));
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "dist", "index.html"));
-});
-
-const path = require("path");
-app.use(express.static(path.join(__dirname, "../dist")));
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../dist/index.html"));
 });
 
 app.listen(port, () => {
