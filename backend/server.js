@@ -23,7 +23,7 @@ app.use(cors());
 client.connect();
 
 // Get all the passwords
-app.get("/api/passwords", async (req, res) => {
+app.get("/", async (req, res) => {
   const db = client.db(dbName);
   const collection = db.collection("passwords");
   const findResult = await collection.find({}).toArray();
@@ -31,7 +31,7 @@ app.get("/api/passwords", async (req, res) => {
 });
 
 // Save a password
-app.post("/api/passwords", async (req, res) => {
+app.post("/", async (req, res) => {
   const password = req.body;
   const db = client.db(dbName);
   const collection = db.collection("passwords");
@@ -40,7 +40,7 @@ app.post("/api/passwords", async (req, res) => {
 });
 
 // Delete a password
-app.delete("/api/passwords", async (req, res) => {
+app.delete("/", async (req, res) => {
   const password = req.body;
   const db = client.db(dbName);
   const collection = db.collection("passwords");
