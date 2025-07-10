@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 
 Manage-Creds a lightweight and easy-to-use password manager built entirely in the browser. Designed with React, TailwindCSS, and Vite, it helps you organize your login credentials without needing any server or database. Your data stays private because everything is stored securely in your browser’s LocalStorage.
 
-This app is ideal for personal use, testing, or as a learning project for React developers. Whether you want to store credentials for multiple sites or simply practice managing state in React, Manage-Creds akes it straightforward.
+This app is ideal for personal use, testing, or as a learning project for React developers. Whether you want to store credentials for multiple sites or simply practice managing state in React, Manage-Creds makes it straightforward.
 
 ## About the Project
 
@@ -26,8 +26,6 @@ This app is ideal for personal use, testing, or as a learning project for React 
 . Quickly copy credentials to your clipboard with a single click
 
 . Unlike cloud-based password managers, Manage-Creds oes not send your data anywhere. It’s stored locally in your browser, making it perfect for people who value privacy and simplicity.
-
-. This project also serves as a great starting point for beginners learning React hooks (useState, useEffect, useRef) and working with browser storage.
 
 ## Features
 
@@ -53,6 +51,10 @@ npm install
 
 (4) Start the Development Server
 npm run dev
+
+(5) cd backend
+npm install
+-> to run backend npm start or node --watch server.js
 
 After running this command, the app will be available at:
 http://localhost:5173
