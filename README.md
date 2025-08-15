@@ -71,7 +71,7 @@ Open it in your browser and start using your personal password manager!
 . LocalStorage API – To persist credentials in the browser
 
 
--There are some screenshot for website response
+-This are some screenshot for refrence
 
 <img width="1366" height="768" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/df48ab6d-2360-41d7-ba34-ff59b6751e70" />
 
