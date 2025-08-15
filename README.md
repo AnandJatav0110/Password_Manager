@@ -1,15 +1,13 @@
-# React + Vite
+# **Password Manager**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**why this product**
+- With online scams growing every day, protecting your privacy and security has never been more important. Saving passwords in browsers or untrusted websites can put your accounts at risk. That’s why we created this Password Manager — a secure place where your credentials stay encrypted, private, and under your control.
 
 ## Manage-Creds = A Personal Password Manager
 
-Manage-Creds a lightweight and easy-to-use password manager built entirely in the browser. Designed with React, TailwindCSS, and Vite, it helps you organize your login credentials without needing any server or database. Your data stays private because everything is stored securely in your browser’s LocalStorage.
+- Manage-Creds a lightweight and easy-to-use password manager built entirely in the browser. 
+- Designed with React, TailwindCSS, and Vite, it helps you organize your login credentials without needing any server or database. 
+- Your data stays private because everything is stored securely in your browser’s LocalStorage.
 
 This app is ideal for personal use, testing, or as a learning project for React developers. Whether you want to store credentials for multiple sites or simply practice managing state in React, Manage-Creds makes it straightforward.
 
@@ -25,7 +23,7 @@ This app is ideal for personal use, testing, or as a learning project for React 
 
 . Quickly copy credentials to your clipboard with a single click
 
-. Unlike cloud-based password managers, Manage-Creds oes not send your data anywhere. It’s stored locally in your browser, making it perfect for people who value privacy and simplicity.
+. Unlike cloud-based password managers, Manage-Creds are not send your data anywhere. It’s stored locally in your browser, making it perfect for people who value privacy and simplicity.
 
 ## Features
 
@@ -71,3 +69,12 @@ Open it in your browser and start using your personal password manager!
 . React Toastify – For notifications
 
 . LocalStorage API – To persist credentials in the browser
+
+
+-There are some screenshot for website response
+
+<img width="1366" height="768" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/df48ab6d-2360-41d7-ba34-ff59b6751e70" />
+
+<img width="1366" height="768" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/4f231a81-4cb3-4d81-af14-67694584e88e" />
+
+<img width="1366" height="768" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/a892431d-f50a-435c-8d61-9f167daac084" />
