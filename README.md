@@ -34,6 +34,15 @@ This app is ideal for personal use, testing, or as a learning project for React 
 . Mobile-friendly responsive design with TailwindCSS
 . Fully client-side – no backend API required
 
+-This are some screenshot for refrence
+
+<img width="1366" height="768" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/df48ab6d-2360-41d7-ba34-ff59b6751e70" />
+
+
+<img width="1366" height="768" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/4f231a81-4cb3-4d81-af14-67694584e88e" />
+
+
+<img width="1366" height="768" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/a892431d-f50a-435c-8d61-9f167daac084" />
 ## Installation & Setup (Run Locally)
 
 Follow these steps to clone and run the project on your system:
@@ -70,13 +79,3 @@ Open it in your browser and start using your personal password manager!
 
 . LocalStorage API – To persist credentials in the browser
 
-
--This are some screenshot for refrence
-
-<img width="1366" height="768" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/df48ab6d-2360-41d7-ba34-ff59b6751e70" />
-
-
-<img width="1366" height="768" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/4f231a81-4cb3-4d81-af14-67694584e88e" />
-
-
-<img width="1366" height="768" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/a892431d-f50a-435c-8d61-9f167daac084" />
